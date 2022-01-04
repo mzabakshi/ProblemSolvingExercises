@@ -1,0 +1,14 @@
+C:\Users\zakiu\source\repos\ProblemSolving\Datastructure\bin\Debug\Datastructure.exe.config
+C:\Users\zakiu\source\repos\ProblemSolving\Datastructure\bin\Debug\Datastructure.exe
+C:\Users\zakiu\source\repos\ProblemSolving\Datastructure\bin\Debug\Datastructure.pdb
+C:\Users\zakiu\source\repos\ProblemSolving\Datastructure\obj\Debug\Datastructure.csproj.CoreCompileInputs.cache
+C:\Users\zakiu\source\repos\ProblemSolving\Datastructure\obj\Debug\Datastructure.exe
+C:\Users\zakiu\source\repos\ProblemSolving\Datastructure\obj\Debug\Datastructure.pdb
+C:\Users\zakiu\source\repos\ProblemSolving\Datastructure\obj\Debug\Datastructure.csprojResolveAssemblyReference.cache
+C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\Datastructure\bin\Debug\Datastructure.exe.config
+C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\Datastructure\bin\Debug\Datastructure.exe
+C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\Datastructure\bin\Debug\Datastructure.pdb
+C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\Datastructure\obj\Debug\Datastructure.csproj.CoreCompileInputs.cache
+C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\Datastructure\obj\Debug\Datastructure.exe
+C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\Datastructure\obj\Debug\Datastructure.pdb
+C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\Datastructure\obj\Debug\Datastructure.csprojAssemblyReference.cache
