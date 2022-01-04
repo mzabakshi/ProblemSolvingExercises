@@ -12,3 +12,10 @@ C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\ProblemSolving\obj
 C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.csproj.CoreCompileInputs.cache
 C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.exe
 C:\Users\zakiu\source\repos\ProgrammingProblem\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.pdb
+C:\Users\zakiu\source\repos\ProblemSolvingExercises\ProblemSolving\ProblemSolving\bin\Debug\ProblemSolving.exe.config
+C:\Users\zakiu\source\repos\ProblemSolvingExercises\ProblemSolving\ProblemSolving\bin\Debug\ProblemSolving.exe
+C:\Users\zakiu\source\repos\ProblemSolvingExercises\ProblemSolving\ProblemSolving\bin\Debug\ProblemSolving.pdb
+C:\Users\zakiu\source\repos\ProblemSolvingExercises\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.csprojAssemblyReference.cache
+C:\Users\zakiu\source\repos\ProblemSolvingExercises\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.csproj.CoreCompileInputs.cache
+C:\Users\zakiu\source\repos\ProblemSolvingExercises\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.exe
+C:\Users\zakiu\source\repos\ProblemSolvingExercises\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.pdb

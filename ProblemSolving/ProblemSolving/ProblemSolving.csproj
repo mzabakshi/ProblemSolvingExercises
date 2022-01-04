@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="ArrayProblems.cs" />
     <Compile Include="BasicProblems.cs" />
+    <Compile Include="CodesignalProblems.cs" />
     <Compile Include="LinkedList\LinkedListProblems.cs" />
     <Compile Include="LinkedList\ListNode.cs" />
     <Compile Include="Program.cs" />

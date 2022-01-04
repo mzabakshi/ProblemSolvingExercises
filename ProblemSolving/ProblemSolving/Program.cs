@@ -248,11 +248,17 @@ namespace ProblemSolving
             //Console.WriteLine(PatternMatch("0", "y"));
 
 
-            Console.WriteLine(bprobs.StrictlyIncreasing(new int[] { 1, 3, 2, 1 }));
+            //Console.WriteLine(bprobs.StrictlyIncreasing(new int[] { 1, 3, 2, 1 }));
 
             //Console.WriteLine(bprobs.solution(new string[] { "is", "valid", "right" }, "isValid"));
             //Console.WriteLine(bprobs.solution(new string[] { "is", "valid", "right" }, "IsValid"));
             //Console.WriteLine(bprobs.solution(new string[] { "a" }, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")); 
+
+
+            CodesignalProblems codeSignal = new CodesignalProblems();
+
+            var matrix = new int[3][] { new int[] { 0, 1, 1, 2 }, new int[] { 0, 5, 0, 0 }, new int[] { 2, 0, 3, 3 } };
+            Console.WriteLine(codeSignal.CodebotsAvailableRooms(matrix));
 
             Console.ReadKey();
         }
