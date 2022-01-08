@@ -99,5 +99,28 @@ namespace ProblemSolving
 
             return sum;
         }
+
+        bool LuckyNumber(int n)
+        {
+            int length = n.ToString().Length;
+            int first = 0;
+            int second = 0;
+            int count = 0;
+
+            while (n > 0)
+            {
+                int val = n % 10;
+
+                if (count < length / 2)
+                    second += val;
+                else
+                    first += val;
+
+                count++;
+                n = n / 10;
+            }
+
+            return first == second;
+        }
     }
 }
