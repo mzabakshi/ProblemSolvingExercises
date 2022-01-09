@@ -260,7 +260,9 @@ namespace ProblemSolving
             //var matrix = new int[3][] { new int[] { 0, 1, 1, 2 }, new int[] { 0, 5, 0, 0 }, new int[] { 2, 0, 3, 3 } };
             //Console.WriteLine(codeSignal.CodebotsAvailableRooms(matrix));
 
-            Console.WriteLine(codeSignal.LongestStringFromArray(new string[] { "aba", "aa", "ad", "vcd", "aba" }));
+            //Console.WriteLine(codeSignal.LongestStringFromArray(new string[] { "aba", "aa", "ad", "vcd", "aba" }));
+
+            var asort = codeSignal.SortKeepingTreesInPlace(new int[] { -1, 150, 190, 170, -1, -1, 160, 180 });
 
             Console.ReadKey();
         }

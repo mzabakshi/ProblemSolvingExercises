@@ -122,5 +122,50 @@ namespace ProblemSolving
 
             return first == second;
         }
+
+        int[] SortWithTreesInPlace(int[] a)
+        {
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] > -1)
+                {
+                    for (int j = 0; j < a.Length; j++)
+                    {
+                        if (a[j] != -1 && a[i] < a[j]) 
+                            Swap(a, i, j);
+                    }
+                }
+            }
+            return a;
+        }
+
+        public int[] SortKeepingTreesInPlace(int[] a)
+        {
+            int[] newArr = new int[a.Length];
+            Array.Copy(a, newArr, a.Length);
+            Array.Sort(newArr);
+            Stack<int> stack = new Stack<int>();
+            for (int i = newArr.Length - 1; i >= 0; i--)
+            {
+                if (newArr[i] != -1)
+                    stack.Push(newArr[i]);
+            }
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] == -1)
+                    continue;
+                a[i] = stack.Pop();
+            }
+
+            return a;
+        }
+
+        private void Swap(int[] a, int i, int j)
+        {
+            int temp = a[i];
+            a[i] = a[j];
+            a[j] = temp;
+        }
     }
 }
