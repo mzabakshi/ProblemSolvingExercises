@@ -206,5 +206,20 @@ namespace ProblemSolving
                 Reverse(arr, l + 1, r - 1);
             }
         }
+
+        public int[] SumOfAlternateNumbersInArray(int[] a)
+        {
+            int[] newArr = new int[2];
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (i % 2 == 0)
+                    newArr[0] += a[i];
+                else
+                    newArr[1] += a[i];
+            }
+
+            return newArr;
+        }
     }
 }
