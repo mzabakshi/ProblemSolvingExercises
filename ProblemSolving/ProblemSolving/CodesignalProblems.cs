@@ -221,5 +221,39 @@ namespace ProblemSolving
 
             return newArr;
         }
+
+        public string[] AddBorder(string[] picture)
+        {
+
+            string[] newPicture = new string[picture.Length + 2];
+
+            int length = 0;
+
+            for (int i = 0; i < picture.Length; i++)
+            {
+                if (picture[i].Length > length)
+                    length = picture[i].Length;
+            }
+
+            string str = "";
+            length += 2;
+            while (length > 0)
+            {
+                str += "*";
+                length--;
+            }
+
+            for (int i = 0; i < newPicture.Length; i++)
+            {
+                if (i == 0 || i == newPicture.Length - 1)
+                    newPicture[i] = str;
+                else
+                {
+                    newPicture[i] = $"*{picture[i - 1]}*";
+                }
+            }
+
+            return newPicture;
+        }
     }
 }
