@@ -131,7 +131,7 @@ namespace ProblemSolving
                 {
                     for (int j = 0; j < a.Length; j++)
                     {
-                        if (a[j] != -1 && a[i] < a[j]) 
+                        if (a[j] != -1 && a[i] < a[j])
                             Swap(a, i, j);
                     }
                 }
@@ -166,6 +166,45 @@ namespace ProblemSolving
             int temp = a[i];
             a[i] = a[j];
             a[j] = temp;
+        }
+
+        string ReverseStringInParenthesis(string inputString)
+        {
+            var stack = new Stack<int>();
+
+            for (int i = 0; i < inputString.Length; i++)
+            {
+                if (inputString[i] == '(')
+                    stack.Push(i);
+                else if (inputString[i] == ')')
+                {
+                    char[] arr = inputString.ToCharArray();
+                    Reverse(arr, stack.Peek() + 1, i);
+                    inputString = new string(arr);
+                    stack.Pop();
+                }
+            }
+
+            string res = "";
+            for (int i = 0; i < inputString.Length; i++)
+            {
+                if (inputString[i] != ')' && inputString[i] != '(')
+                {
+                    res += inputString[i];
+                }
+            }
+            return res;
+        }
+
+        private void Reverse(char[] arr, int l, int r)
+        {
+            if (l < r)
+            {
+                char ch = arr[l];
+                arr[l] = arr[r];
+                arr[r] = ch;
+                Reverse(arr, l + 1, r - 1);
+            }
         }
     }
 }
